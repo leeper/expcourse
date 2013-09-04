@@ -1,0 +1,201 @@
+\documentclass[12pt]{article}
+\usepackage{titlesec}
+\usepackage{graphicx,setspace,hyperref,fullpage,amsmath,amsfonts,times,multirow,ccaption,tabularx,verbatim,booktabs,mdwlist}
+\setlength{\marginparwidth}{.5in}
+\usepackage{natbib}
+\bibpunct{(}{)}{;}{a}{}{,} %set in-line reference punctuation
+\setlength{\bibsep}{0.1in} %set spacing between references
+\setlength{\bibhang}{.5in} %set hanging indent for references
+\setlength{\parindent}{0.5in}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={Production, Analysis, and Communication of Causation in the Social Sciences},    % title
+    pdfauthor={Thomas J. Leeper},     % author
+    pdfsubject={Political Science},   % subject of the document
+%    pdfkeywords={politics} {public opinion} {information acquisition} {media exposure} {time}, % list of keywords
+    pdfnewwindow=true,      % links in new window
+    %colorlinks=false,       % false: boxed links; true: colored links
+    %linkcolor=red,          % color of internal links
+    %citecolor=green,        % color of links to bibliography
+    %filecolor=magenta,      % color of file links
+    %urlcolor=cyan           % color of external links
+    pdfborder={0 0 0}
+}
+
+\title{Production, Analysis, and Communication of Causation in the Social Sciences}
+\author{Thomas J. Leeper\\
+Department of Political Science,\\
+Northwestern University}
+
+%\SweaveOpts{echo=true,keep.source=TRUE}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This course is concerned with the design and analysis of social science experiments. While some courses of this sort focus heavily on design and others focus heavily on analysis, this course will attempt to weight both equally. The choice of experimentation, rather than observation, emphasizes the importance of design in shaping analysis --- experimentation greatly simplifies the analysis of social science data, which can be incredibly complicated. By focusing on design, this course intends to develop your understanding of experimentation, causal inference, and statistical analysis by starting from the simplest of research designs and progressively complicating those designs so as to demonstrate the design and analytic tools needed when various violations of the ``gold standard'' experiment occur.\footnote{This differs somewhat from the typical approach to statistical pedagogy, which tends to focus on common tools first and then proceed through discussion of situations that violate the assumptions of those common tools.} Consequently, design and analysis will be discussed together, rather than as separate aspects of experimental research --- it is impossible to discuss analysis without understanding design, and design should be cognizant of the inferences intended, hypotheses to be tested, analysis to be performed, and audiences for the research findings. The course begins with philosophical and practical discussion of social science, with particular emphasis on inferring causal relationships among variables by way of extended case studies of controversies in modern politics and society. We then turn to the development of research questions and hypotheses (with reference to the same controversies), the design and analysis of simple experiments to produce causally useful information, and finally address the types of experiments you are likely to encounter and produce in the course of your own work, including those that involve complicated experimental designs. In this last section, we will discuss a large number of common (and other relatively rare) challenges for causal inference, including missing data, etc. The conclusion of the course will discuss the application of experimental logic to the design and analysis of observational data, with an emphasis on the specification of potential outcomes, search for comparison groups, and creative design-based strategies for producing simple analysis that yields meaningful causal information. 
+
+As stated, throughout the text a heavy emphasis will placed on design --- that is, rather than work from imperfect empirics to potentially useful inference, the text will strive toward the production of inherently causal information. Only when causal inference is immediately difficult, perhaps readily complicated by a number of factors that cannot be controlled or accounted for by design, will assumption-laden statistical analysis be imposed. Assumptions in each case will be clearly stated and assumptions based upon features of research design will be clearly distinguished from convenience assumptions made for simplified estimation of causal effects and their uncertainties. Finally, the text will strive to emphasize the practical interpretation of causal evidence, including its description in words rather than statistical nomenclature and in graphical form for the ease of audience absorption. Given the diversity of potential audiences for causal information, lessons in communication will emphasize the multiple ways of discussing and interpreting data, such as raw causal effects, subgroup effects, expected outcomes for populations under different compliance rates or at different budgets of treatment application. Effort will be made to focus not only on social, political, legal, and health interventions, but also on the application of causal inference to causes and outcomes that are not readily monetized or quantified. The final chapter will discuss observational research involving both quantitative and qualitative data and consider how those data (cross-sectional surveys, retrospective case-control studies, longitudinal research, case studies, etc.) might readily be designed and analyzed from a causal perspective. While KKV have long been criticized for their push to convert qualitative into quantitative research, this book is necessarily agnostic about the type of data collected or the size of a given sample provided that causal inference is squarely at the heart of the research effort.
+
+The logics of causal inference are intended as the primary learning goal, experimentation being a standard by which to assess all other research and a guide for the design, analysis, and reporting of all other studies. When experimentation is deemed infeasible, unethical, or cost prohibitive, it is important to keep in mind that these are practical considerations not inferential considerations. What we seek to know --- the causal parameter(s) of interest --- remain the same regardless of what type of data we ultimately collect or how those data are analyzed and communicated. Research sometimes aims at addressing questions with no causal implications; such research is respectable and deserving of publication. Content analysis of media coverage, elite interviews, focus groups, cross-sectional sample surveys, and case studies often serve descriptive and exploratory purposes that aid the broader research enterprise to a considerable degree. This course does not address these efforts because they are a distinct inferential effort.
+
+%Start with an effective explanation to show what is good experimental practice (both compelling and well-executed); look for examples of ``definitive'' experiments --- Asch, Kahneman and Tversky, etc.
+
+%Goal of analytic design and thus research in general is to \emph{show comparisons}
+
+\section{Causal Questions and Causal Inference}
+
+%Types of inference: causal inference, descriptive inference to a population
+
+
+\subsection{Description, Prediction, and Causation}
+
+\subsection{Defining Outcomes}
+
+\subsection{Defining Effects}
+
+\subsubsection{Homogeneous versus Heterogeneous Effects}
+%Heterogeneous effects due to moderation versus heterogeneous effects due to treatment heterogeneity versus heterogeneous effects due to randomness and probabilistic causality
+
+\subsection{Causes of Effects and Effects of Causes}
+\subsubsection{Philosophy}
+
+\subsubsection{Necessary and Sufficient Causes}
+
+
+
+
+\section{Researching Planning and Hypothesis Development}
+\subsection{Hypotheses}
+\subsubsection{Null effect hypotheses}
+\subsubsection{Group comparison hypotheses}
+\subsubsection{Contrasts}
+
+\subsection{Continuous and Discrete Outcomes}
+\subsubsection{Accuracy versus Precision}
+
+\subsubsection{Levels of Measurement}
+
+\subsubsection{Significant Figures/Digits}
+
+\subsection{Multiple Outcomes and Multiple Outcome Measures}
+
+
+
+
+\section{Introduction to Design: Simple Experiments}
+\subsection{Potential Outcomes}
+
+%God's data example from Rubin
+
+\subsection{Randomization}
+\subsubsection{Causal Inference as a Missing Data Problem}
+
+\subsection{Gold Standard Experiments}
+
+\subsection{Validity}
+
+
+
+
+\section{Introduction to Analysis: Experimental Statistics}
+\subsection{Description}
+
+\subsection{Nonparametric Statistics}
+\subsubsection{Interval Estimation: Non-parametric Bounds}
+\subsubsection{Point Estimation: Randomization Inference via Permutation}
+
+\subsection{Sampling}
+
+%Discuss the lack of need for sampling-based inference when addressing a population
+
+\subsection{Parametric Statistics}
+
+
+
+\section{Practical and Complex Experiments}
+\subsection{Multiple Groups}
+\subsubsection{Nonparametric Statistics}
+\subsubsection{Parametric Statistics}
+
+\subsection{Analysis of Variance and Linear Regression}
+\subsubsection{Comparison with Difference Estimators}
+\subsubsection{Effect sizes in ANOVA}
+\subsubsection{Predicted Values, Residuals, Error, and Model Fit}
+\subsection{Multi-Factor Treatments, Continuous Treatments, Interactions}
+
+\subsection{Maximum Likelihood Estimation and Non-Linear Outcomes}
+\subsubsection{Predicted Probabilities and Measures of Effect Size}
+\subsubsection{Bayesian Inference}
+
+\subsection{Repeated Measures}
+\subsubsection{Within- and Between-Subjects}
+
+
+
+\section{Meta-Analysis/Research Synthesis}
+\subsection{Replication}
+
+\subsection{Publication Bias}
+%Evaluating research based upon theory, execution, and analysis, rather than on results
+
+\subsection{Effect Sizes and Posterior Effect Distributions}
+
+\subsection{Bayesian Inference: Meta-analysis for Building Prior Distributions}
+
+
+
+\section{Protocol Development and Practical Issues in Experimental Design}
+\subsection{All Experiments are Broken Experiments: Planning and Responding}
+
+\subsection{Context, Venue, Mode, Treatment, and Measurement Decisions}
+
+\subsection{Pretesting}
+
+\subsection{Data Problems}
+\subsubsection{Missing Outcomes}
+\subsubsection{Noncompliance}
+\subsubsection{Randomization and Manipulation Checks}
+
+\subsection{Interactions}
+
+
+
+\section{Reporting: Statistics, Tables, and Plots}
+\subsection{Reporting Standards}
+
+\subsection{Statistics}
+
+\subsection{Tables}
+
+\subsection{Plots}
+
+\subsection{Archiving and Distributing Protocols and Data}
+
+
+
+
+\section{Observational Data}
+\subsection{Assignment Mechanisms}
+
+\subsection{Covariates}
+
+\subsection{Matching Methods}
+
+\subsection{Random and Intentional Sampling}
+
+\subsection{Is regression plausible?}
+
+\subsection{Qualitative Methods}
+
+
+
+\end{document}
