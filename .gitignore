@@ -5,3 +5,6 @@
 *.docx
 
 # files to ignore #
+*.*
+!*.pdf
+!*.tex
