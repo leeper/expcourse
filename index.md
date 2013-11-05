@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Experiments Seminar
+title: Home
 ghurl: https://github.com/leeper/expcourse/tree/gh-pages
 ---
 
