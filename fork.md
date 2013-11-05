@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fork Experiments Course
+title: Fork
 ---
 
 # Fork this Syllabus #
