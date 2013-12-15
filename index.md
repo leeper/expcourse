@@ -6,20 +6,22 @@ ghurl: https://github.com/leeper/expcourse/tree/gh-pages
 
 # Experimental Methods Seminar #
 
-This repository holds materials for a course on experimental design and analysis. The initial version of this course is being taught as a master seminar at Aarhus University during Spring term 2014. This repository contains syllabi for two versions of the course that I'm developing: one focused on experimental design (with more coverage of practical and substantive matters) and one focused on experimental analysis (with more focus on statistics and implementation). The Spring 2014 version of the class focuses on design.
+This course addresses experimentation as a research method in political science. It is being taught as a master seminar at Aarhus University during Spring term 2014. The Spring 2014 version of the class focuses on experimental design.
 
 ## Syllabus ##
 
-For the design course, you can find an outline of the course objectives, schedule for the course, and assigned readings in the [Syllabus](Syllabus-Design.pdf).
+You can find an outline of the course objectives, schedule for the course, exam structure, and assigned readings in the [Syllabus](/Syllabus.pdf).
 
-Those who are interested can also glance at the [Analysis Syllabus](Syllabus-Analysis.pdf), which is still in draft form. Though the Spring 2014 course will use the design syllabus, those interested in more advanced issues in experimental data analysis might find this syllabus helpful.
+<!-- Those who are interested can also glance at the [Analysis Syllabus](/Syllabus-Analysis.pdf), which is still in draft form, but lays out more technical and statistical aspects of experimental research. Though the Spring 2014 course will use the design syllabus, those interested in more advanced issues in experimental data analysis might find this syllabus helpful.-->
 
 
 ## Readings ##
 
-In addition to journal articles on the syllabus, the course will use the following two books:
+In addition to journal articles on the syllabus, the course will use the following textbook:
 
 William R. Shadish, Thomas D. Cook, and Donald T. Campbell. *Experimental and Quasi-Experimental Designs for Generalized Causal Inference.* Houghton-Mifflin, Boston, MA, 2001.
+
+Though not required, the following is also highly recommended for those interested in issues of experimental analysis:
 
 Alan S. Gerber and Donald P. Green. *Field Experiments: Design, Analysis, and Interpretation.* W.W. Norton, 2012.
 
@@ -28,7 +30,23 @@ Shadish et al. provide a useful conceptual background for the practice of causal
 
 ## Slides ##
 
-PDF versions of course slides (and the LaTeX sources for those slides) are available in the [/Slides]({{ page.ghurl }}/Slides) directory.
+PDF versions of course slides (and the LaTeX sources for those slides) are available in the [/Slides](/Slides) directory.
+
+
+## Assignments and Exam ##
+
+The exam for the course involves a home assignment (totally 6000 words) laying out the design and analysis of a proposed experiment. The syllabus describes the requirements for this assignment in detail.
+
+In preparation for the exam, students will prepare and present short (one-page), bullet-point summaries of example experiments reported in published articles. These short assignments will help students to interpret experimental work and practice the structure of the final assignment. The basic topics that should be included in these summaries are:
+
+1. Research question(s)
+2. Hypotheses
+3. Experimental design and conditions
+4. Measurement of outcomes and key covariates
+5. Sampling and random assignment procedures
+6. Problems with implementation and their remedies
+7. Analysis
+8. Findings
 
 
 ## Why GitHub? ##

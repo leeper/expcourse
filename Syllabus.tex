@@ -1,0 +1,428 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{graphicx,setspace,hyperref,amsmath,amsfonts,multirow,ccaption,mdwlist,comment}
+% mini table of contents
+\usepackage{minitoc}
+\dosecttoc % make section toc
+\setcounter{secttocdepth}{2} % subsection depth
+\renewcommand{\stctitle}{} % no title
+\nostcpagenumbers
+
+% optionally include commented environments
+\excludecomment{lessonplan}
+
+\setlength{\marginparwidth}{.5in}
+\usepackage{natbib}
+% Two lines to create in-text full citations for a syllabus
+% And comment out my other standard bibtex commands
+\usepackage{bibentry}
+\newcommand{\reading}[2][]{\noindent --{#1} \bibentry{#2}.\vspace{.25em}\\}
+\newcommand{\seealso}{\noindent \emph{See Also:}\\}
+\newcommand{\topic}[1]{\noindent \textbf{#1}\\}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={Syllabus: Experimentation and Causal Inference},    % title
+    pdfauthor={Thomas J. Leeper},     % author
+    pdfsubject={Political Science},   % subject of the document
+    pdfnewwindow=true,      % links in new window
+    pdfborder={0 0 0}
+}
+
+\title{Experimentation and Causal Inference}
+\author{Thomas J. Leeper\\
+Department of Political Science and Government\\
+Aarhus University}
+
+\begin{document}
+\nobibliography*
+
+\maketitle
+
+\faketableofcontents
+
+%\section{Introduction}
+
+The purpose of this course is to introduce and elaborate identification--oriented research methods, particularly experimentation, and their use in the social sciences. While this course could be taught in a number of different ways, the focus here is on delivering a breadth of substantive research topics and methodological considerations that emerge in experimentation. The course also touches on quasi-experimental research methods for causal inference and is bookended by discussions about the nature of causation and alternative means of inferring causal relationships. The course will also address issues in the analysis and reporting of experimental research, such as matters of validity, mediation and moderation, treatment noncompliance, and the use of covariates. Students will leave the course with a deep and broad understanding of experimental design, along its challenges and opportunities. Students will design an experiment and associated plan of analysis and will have developed an ability to read experimental literature, as well as critique causal claims more broadly
+
+There is an effort to touch on analysis of experiments, but this material is less central than consideration of causation per se, experimental design (as opposed to analysis), and the substantive topics that might be studied experimentally. A short unit on analysis is presented in the middle of the course. This, too, is done somewhat atypically. Rather than spending large portions of time on particular estimation techniques (i.e., difference-of-means, ANOVA, regression, permutation) the emphasis is on analytic considerations with some discussion of particular techniques. Those interested in particular techniques can reference any of the recommended textbook reading listed at the end of this section, or consult with the instructor.
+
+\section{Objectives}
+The learning objectives for the course are as follows. By the end of the course, students should be able to:
+
+\begin{enumerate}
+\item Explain the fundamental problem of causal inference and its implications for identifying causal relationships in the social sciences
+\item Explain principles of construct validity, internal validity, external validity, and statistical conclusion validity with regard to experimental design, analysis, and reporting
+\item Evaluate trade-offs in the design, analysis, and reporting of experimental research and explain the implications of experimental and non-experimental designs for drawing causal inferences
+\item Apply methodological and substantive knowledge from the course to the design and analysis of an original experiment
+\end{enumerate}
+
+\section{Exam}
+The exam for the course consists of a take-home assignment on topic of student's choice. Specifically, students are asked to design an experimental study on a relevant topic from any area of political science. The assignment must introduce the underlying research question (and associated constructs), use relevant empirical and theoretical literature to develop testable hypotheses, and then describe --- in detail --- an experimental design capable of addressing those hypotheses and thus providing insight into the research question. Furthermore, the assignment must detail:
+\begin{itemize}
+\item The design of the experiment and a discussion of how that design addresses the hypotheses and research question
+\item The proposed stimulus/treatment materials
+\item Exact measures of outcomes and covariates (along with justifications of those operationalizations)
+\item A complete ``protocol'' of how the experiment will be implemented, randomization conducted, and outcome measures assessed, along with a discussion of how any challenges in implementation will be addressed
+\item A planned statistical analysis that accounts for any possible data challenges
+\item Discussion of any concerns about the feasibility of the design and any ethical considerations
+\item Discussion of the external validity of the experiment and its contributions to relevant literature
+\end{itemize}
+
+The exam does not require students to implement their experiment, but they are welcome to do so. For those who do not implement their design, some simulated (fake) data should be created in order to demonstrate the proposed analysis.
+
+The seminar will meet in-person for ten weeks, allowing for approximately one month of independent work on that assignment. Students will be expected to present a one-page synopsis of their assignment approximately half way through the semester. Appointment times will then be made available to meet one-on-one with the instructor to discuss a further developed version of the assignment.
+
+\clearpage
+\section{Reading Material}
+The assigned material for the course includes empirical articles on relevant topic and a textbook. All readings should be completed before their respective course meeting. The textbook for the course is:\\
+
+\reading{ShadishCookCampbell2001}
+
+We will be reading most of the text, but not the chapters on non-experimental designs for causal inference. Those chapters may, however, prove helpful to you in designing experimental studies.
+
+As a social researcher interested in causation, you may also find the following books helpful but none of them is require for this course. The Gerber and Green (2012) text is particularly helpful for understanding how to analyze experimental data and the Druckman et al. (2011) text includes literature reviews of nearly all areas of political science, which might supply some ideas for your own experiment.\\
+
+\reading{GerberGreen2012}
+\reading{Rubin2006}
+\reading{MorganWinship2007}
+\reading{Rosenbaum2009}
+\reading{GelmanHill2006}
+\reading{AngristPischke2008}
+%\reading{FieldHole2003} % primer
+\reading{MortonWilliams2010}
+\reading{Mutz2011}
+\reading{Druckmanetal2011}
+
+\clearpage
+\section{Schedule}
+The general schedule for the course is as follows. Details on the readings for each week are provided on the following pages.
+\secttoc
+\clearpage
+
+\subsection{Introduction to Political Science Experiments}
+\emph{What are experiments? And why do we do them? How are they used in political science?}
+\vspace{1em}
+
+\reading{ImaiKingStuart2008}
+\reading{Holland1986}
+\reading{Druckmanetal2006}
+\reading{TverskyKahneman1981} % fix pagination
+
+\seealso
+\reading[Chapter 14 from]{ShadishCookCampbell2001}
+\reading{Gosnell1926}
+\reading{Hovland1959}
+\reading{McDermott2002}
+\reading{Danziger2000}
+\reading{MortonWilliams2008}
+\reading{Iyengar2011}
+\reading{Gerber2011}
+
+
+
+\clearpage
+\subsection{Concepts, Research Questions, and Hypotheses}
+\emph{What kinds of questions can we answer with experiments? How do experiments test theories?}
+\vspace{1em}
+
+\reading[Chapter 3 (up to p.82) from]{ShadishCookCampbell2001}
+\reading[Chapter 5 (107--140) from]{Gerring2012a}
+\reading{Leeper2011}
+\reading{DruckmanNelson2003}
+
+% Roth's three uses of experimentation
+
+
+\seealso
+\reading{Goertz2005}
+\reading{AdcockCollier2001}
+
+
+
+
+\clearpage
+\subsection{Internal Validity and Experimental Design}
+\emph{How do we design experiments effectively? How do we know that they ``work''?}
+\vspace{1em}
+
+\reading[Chapters 1--2 and 8 from]{ShadishCookCampbell2001}
+\reading{Freedman1987}
+-- Look at examples of studies from TESS:\\ \url{http://www.tessexperiments.org/previousstudies.html}\\
+
+\seealso
+\reading{McDermott2011}
+\reading{ShadishSullivan2010}
+\reading{Rubin1978}
+\reading{Rosenbaum2009}
+\reading{Manski1999}
+\reading{CorriganSalzer2003}
+
+
+
+\clearpage
+\subsection{Analysis of Experiments}
+\emph{How do we analyze experiments? How do we detect causal effects?}
+\vspace{1em}
+
+\reading{Rubin2008}
+\reading{GelmanStern2006}
+\reading{Bloom1995}
+\reading{Splawa-Neyman1990}
+
+% Randomization-based methods
+% Difference of means, medians, and variances
+% ANOVA
+% Regression
+
+
+\seealso
+\reading{GerberGreen2012}
+\reading{ManskiNagin2002}
+\reading{Gill1999}
+\reading{Manski1990}
+\reading{MoherDulbergWells1994}
+
+
+
+
+\clearpage
+\subsection{Practical Issues and Challenges}
+\emph{What are the ethical and practical challenges we face in experimentation? What happens if we want to do the impossible? What happens when our experiments go awry?}
+\vspace{1em}
+
+\reading[Chapters 9--10 and 14 from]{ShadishCookCampbell2001}
+\reading{DruckmanLeeper2012a}
+\reading{HertwigOrtmann2008}
+% Talk about noncompliance based on Green and Gerber
+% Something on SUTVA ???
+% Talk about sampling (discussed in Shadish, Cook, and Campbell)
+
+\seealso
+
+\topic{Measurement}
+% probably something from Gerber and Green
+\reading{AnsolabehereRoddenSnyder2008}
+\reading{GainesKuklinski2011a}
+
+\topic{Noncompliance}
+% distinction between ITT, ATE, ATT/LATE
+\reading{AngristImbensRubin1996}
+\reading[Chapters 5--7 from]{GerberGreen2012}
+
+\topic{Mediation}
+\reading{BaronKenny1986}
+\reading{Imaietal2011}
+\reading{BullockHa2011}
+
+\topic{Covariates/post-stratification/blocking}
+\reading{Bowers2011}
+\reading{Freedman2008}
+
+\topic{Ethics}
+\reading{APSAEthics}
+\reading{NAS1995}
+% add something about funding?
+
+\topic{Human Subjects and Harm-Benefit Tradeoffs}
+\reading{BelmontReport}
+\reading{SingerLevine2003}
+\reading{Kunda1990}
+\reading{ButlerBroockman2011}
+\reading{Zimbardo1973}
+\reading{Brandt1978}
+-- Nuremberg Code. \url{http://ohsr.od.nih.gov/guidelines/nuremberg.html}\\
+
+\topic{Deception}
+\reading{Milgram1963}
+\reading{Baumrind1964}
+\reading{Kelman1967}
+\reading{Baumrind1985}
+\reading{Herrera2001}
+
+\topic{Unit Interference}
+\reading{BowersFredricksonPanagopoulos2013}
+\reading[Chapter 8 from]{GerberGreen2012}
+
+
+\clearpage
+\subsection{Examples: Laboratory Experiments}
+\emph{What kinds of experiments can be implemented in the laboratory?}
+\vspace{1em}
+
+\reading{Habyarimanaetal2007}
+\reading{Druckman2004a}
+\reading{IyengarPetersKinder1982}
+\reading{OstromWalkerGardner1992}
+
+\seealso
+\reading{KarpowitzMendelberg2011}
+\reading{Palfrey2009}
+\reading{Miller2011}
+\reading{ColemanOstrom2011}
+\reading{Mutz2007}
+\reading{MortonWilliams2010}
+\reading{IyengarKinder1987}
+
+
+
+\clearpage
+\subsection{Examples: Field Experiments}
+\emph{What kinds of experiments can be implemented in the field?}
+\vspace{1em}
+
+\reading{GerberGreenLarimer2008}
+\reading{Bhavnani2009}
+\reading{Wantchekon2011}
+\reading{BolsenFerraroMiranda2013}
+\reading{JakobsenCalmar2013}
+
+\seealso
+\reading{Sondheimer2011}
+\reading{Sinclair2011}
+\reading{Arceneaux2005}
+\reading{Gerberetal2011}
+\reading{GerberGreen2012}
+\reading{MillerKrosnick2004}
+
+
+
+
+\clearpage
+\subsection{Examples: Survey Experiments (and Student Presentations)}
+\emph{What kinds of experiments can be implemented in surveys?}
+\vspace{1em}
+
+\noindent\textbf{Note: One-third of students should present a synopsis today.}
+\vspace{1em}
+
+\reading{HainmuellerHiscox2010}
+\reading{DruckmanPetersonSlothuus2013}
+\reading{HolbrookKrosnick2010}
+
+\seealso
+\reading{Sniderman2011}
+\reading{KuklinskiQuirk2001}
+\reading{GainesKuklinskiQuirk2007}
+\reading{BarabasJerit2010}
+\reading{Mutz2011}
+\reading{Glynn2013}
+\reading{SchumanPresser1996}
+
+
+
+\clearpage
+\subsection{External Validity (and Student Presentations)}
+\emph{What do experiments tell us outside of the context of the experiment itself?}
+\vspace{1em}
+
+\noindent\textbf{Note: One-third of students should present a synopsis today.}
+\vspace{1em}
+
+\reading[Chapter 3 (only 83--102), Chapter 11, and Chapter 13 from]{ShadishCookCampbell2001}
+\reading{AnsolabehereIyengarSimon1999}
+
+
+\seealso
+\reading{Cronbach1986}
+\reading{Sears1986}
+\reading{DruckmanKam2011}
+\reading{GerberGreenNickerson2001}
+\reading{LauSigelmanRovner2007}
+
+
+
+
+\clearpage
+\subsection{Effect Sizes, Meta-Analysis, and Decision-Making (and Student Presentations)}
+\emph{What can do with the results of experiments?}
+\vspace{1em}
+
+\noindent\textbf{Note: One-third of students should present a synopsis today.}
+\vspace{1em}
+
+\reading{Hedges2013}
+\reading{GerberMalhotra2008}
+\reading{SwiftCallahan2009}
+\reading{RichardsonDetsky1995}
+
+% effect heterogeneity
+% multiple outcomes
+% cost/benefit trade-offs
+% decision analysis
+
+
+\seealso
+\reading{Ioannidis2005}
+\reading{LauSigelmanRovner2007}
+\reading{Cooper1994}
+\reading[Chapter 9 from]{GerberGreen2012}
+-- Cochrane Collaboration: \url{http://www.cochrane.org/}
+
+
+%%%%%%%%
+\clearpage
+\section{Some supplemental readings on causal inference}
+
+\subsection*{Causation}
+\reading{KingKeohaneVerba1994}
+\reading{BradyCollier2010}
+\reading{Sekhon2004}
+\reading{MahoneyGoertz2006}
+
+\subsection*{Matching}
+\reading{Sekhon2009}
+\reading{RosenbaumRubin1983}
+\reading{Rubin2006}
+\reading{IacusKingPorro2009}
+\reading{ArceneauxGerberGreen2010}
+\reading{LaLonde1986}
+\reading{HoImaiKingStuart2007}
+\reading{Steineretal2010}
+
+\topic{Dose-Response}
+\reading{Imbens2000}
+\reading{ImaivanDyk2004}
+\reading[Section 4.6.3 of]{MorganWinship2007}
+
+\topic{Immutable Characteristics}
+\reading{BoydEpsteinMartin2010}
+\reading{GreinerRubin2011}
+
+\subsection*{Real World Randomization and Approximate Randomization}
+\reading{SekhonTitiunik2012}
+\reading{Angrist1990}
+\reading{EriksonStoker2011}
+\reading{ChattopadhyayDuflo2004}
+\reading{HoImaiKingStuart2007}
+
+\subsection*{Discontinuities}
+\topic{Time}
+\reading{CampbellRoss1968}
+\reading{BertrandDufloMullainathan2004}
+
+\topic{Geography}
+\reading{CardKrueger1994}
+\reading{DellaVignaKaplan2007}
+\reading{HuberArceneaux2007}
+% Keele paper on geographical boundaries
+
+\topic{Other}
+\reading{AngristLavy1999}
+\reading{HainmuellerKern2008}
+\reading{ImbensLemieux2008}
+\reading{Bloom2009}
+
+
+
+% load bibtext, but don't generate a bibliography
+\bibliographystyle{plain}
+\nobibliography{Syllabi}
+
+\end{document}
