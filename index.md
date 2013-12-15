@@ -48,6 +48,7 @@ In preparation for the exam, students will prepare and present short (one-page),
 7. Analysis
 8. Findings
 
+Finally, students will present a synopsis of their experimental design during the final three weeks of the course in order to receive peer feedback and can subsequently meet individually with the instructor before the exam is due.
 
 ## Why GitHub? ##
 
