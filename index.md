@@ -10,9 +10,9 @@ This course addresses experimentation as a research method in political science.
 
 ## Syllabus ##
 
-You can find an outline of the course objectives, schedule for the course, exam structure, and assigned readings in the [Syllabus](/Syllabus.pdf).
+You can find an outline of the course objectives, schedule for the course, exam structure, and assigned readings in the [Syllabus](Syllabus.pdf).
 
-<!-- Those who are interested can also glance at the [Analysis Syllabus](/Syllabus-Analysis.pdf), which is still in draft form, but lays out more technical and statistical aspects of experimental research. Though the Spring 2014 course will use the design syllabus, those interested in more advanced issues in experimental data analysis might find this syllabus helpful.-->
+<!-- Those who are interested can also glance at the [Analysis Syllabus](Syllabus-Analysis.pdf), which is still in draft form, but lays out more technical and statistical aspects of experimental research. Though the Spring 2014 course will use the design syllabus, those interested in more advanced issues in experimental data analysis might find this syllabus helpful.-->
 
 
 ## Readings ##
