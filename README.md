@@ -8,3 +8,5 @@ The course website can be found at: http://www.thomasleeper.com/expcourse
 ## Why GitHub? ##
 
 Read more about why this course is on GitHub [here](fork.md).
+
+[![Build Status](https://travis-ci.org/leeper/expcourse.png?branch=gh-pages)](https://travis-ci.org/leeper/expcourse)
