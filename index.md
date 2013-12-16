@@ -35,7 +35,7 @@ PDF versions of course slides (and the LaTeX sources for those slides) are avail
 
 ## Assignments and Exam ##
 
-The exam for the course involves a home assignment (totally 6000 words) laying out the design and analysis of a proposed experiment. The syllabus describes the requirements for this assignment in detail.
+The exam for the course involves a home assignment (total 8000 words) laying out the design and analysis of a proposed experiment. The syllabus describes the requirements for this assignment in detail.
 
 In preparation for the exam, students will prepare and present short (one-page), bullet-point summaries of example experiments reported in published articles. These short assignments will help students to interpret experimental work and practice the structure of the final assignment. The basic topics that should be included in these summaries are:
 
