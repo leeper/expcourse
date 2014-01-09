@@ -30,7 +30,7 @@ Shadish et al. provide a useful conceptual background for the practice of causal
 
 ## Slides ##
 
-PDF versions of course slides (and the LaTeX sources for those slides) are available in the [/Slides](/Slides) directory.
+PDF versions of course slides (and the LaTeX sources for those slides) are available in the [/Slides](Slides) directory.
 
 
 ## Assignments and Exam ##
