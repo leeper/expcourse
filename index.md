@@ -35,9 +35,9 @@ PDF versions of course slides (and the LaTeX sources for those slides) are avail
 
 ## Assignments and Exam ##
 
-The exam for the course involves a home assignment (total 8000 words) laying out the design and analysis of a proposed experiment. The syllabus describes the requirements for this assignment in detail.
+### Weekly Assignments ###
 
-In preparation for the exam, students will prepare and present short (one-page), bullet-point summaries of example experiments reported in published articles. These short assignments will help students to interpret experimental work and practice the structure of the final assignment. The basic topics that should be included in these summaries are:
+In preparation for the exam, students will prepare and present short (less than one page), bullet-point summaries of example experiments reported in published articles. These short assignments will help students to interpret experimental work and practice the structure of the final assignment. The basic topics that should be included in these summaries are:
 
 1. Research question(s)
 2. Hypotheses
@@ -48,7 +48,15 @@ In preparation for the exam, students will prepare and present short (one-page),
 7. Analysis
 8. Findings
 
-Finally, students will present a synopsis of their experimental design during the final three weeks of the course in order to receive peer feedback and can subsequently meet individually with the instructor before the exam is due.
+A [worksheet is available](Worksheet/design-worksheet.pdf) that can be used to guide the completion of these assignments.
+
+### Exam, synopsis presentations, and one-on-one meetings ###
+
+The exam for the course involves a home assignment (total 8000 words) laying out the design and analysis of a proposed experiment. The syllabus describes the requirements for this assignment in detail.
+
+Students will present a synopsis of their experimental design during the final three weeks of the course in order to receive peer feedback. One third of students will present each of the three weeks. Presentations should be about 2-3 minutes long, allowing about 10 minutes of discussion and feedback per student.
+
+Student can then, optionally, meet individually with the instructor before the exam is due to receive additional feedback.
 
 ## Why GitHub? ##
 
