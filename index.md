@@ -56,6 +56,8 @@ The exam for the course involves a home assignment (total 8000 words) laying out
 
 Students will present a synopsis of their experimental design during the final three weeks of the course in order to receive peer feedback. One third of students will present each of the three weeks. Presentations should be about 2-3 minutes long, allowing about 10 minutes of discussion and feedback per student.
 
+[*Sign-up for presentation dates a this link*](http://doodle.com/8m5tss6hnybq6r66).
+
 Student can then, optionally, meet individually with the instructor before the exam is due to receive additional feedback.
 
 ## Why GitHub? ##
