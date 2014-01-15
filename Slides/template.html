@@ -1,0 +1,109 @@
+---
+title: Exp Course Slides Template
+layout: slides-default
+---
+
+# Experimentation and Causal Inference
+
+Department of Political Science and Government
+Aarhus University
+
+---
+## Simple title-only slide
+
+---
+## Slide with columns
+
+layout: false
+.left-column[
+  ## Item
+]
+.right-column[
+  Some contents
+
+- List item 1
+
+- List item 2
+
+- .red[Embedded CSS*]
+
+.footnote[.red[*] Footnote]
+]
+
+
+
+---
+name: how
+
+.left-column[
+  ## How does it work?
+### - Markdown
+]
+.right-column[
+A Markdown-formatted chunk of text is transformed into individual slides by JavaScript running in the browser:
+
+```remark
+# Slide 1
+This is slide 1
+
+---
+
+# Slide 2
+This is slide 2
+```
+
+.slides[
+  .first[
+  ### Slide 1
+  This is slide 1
+  ]
+  .second[
+  ### Slide 2
+  This is slide 2
+  ]
+]
+
+Regular Markdown rules apply with only a single exception:
+
+  - A line containing three dashes constitutes a new slide
+  (not a horizontal rule, `&lt;hr /&gt;`)
+
+]
+
+
+---
+name: Slide Properties
+class: middle, center
+
+# Slide Properties
+
+The name of this slide is {{ name }}.
+
+See the [complete list](https://github.com/gnab/remark/wiki/Slide-Properties) of slide properties.
+
+
+---
+# Display modes
+
+Just like three dashes separate slides, three question marks separate slide content from slide notes:
+
+```
+Slide 1 content
+
+???
+
+Slide 1 notes
+
+---
+
+Slide 2 content
+
+???
+
+Slide 2 notes
+```
+
+Pressing __P__ will toggle presenter mode.
+
+Pressing __C__ will open a cloned view of the current slideshow in a new browser window.
+
