@@ -6,11 +6,12 @@ ghurl: https://github.com/leeper/expcourse/tree/gh-pages
 
 # Slides #
 
-Slides will be posted after class, if not before
+Slides will be posted after class, if not before.
 
 | Slides |
 | ------ |
 | [Week 1](Week01.html) |
+
 <!--
 | [Week 2](Week02.html) |
 | [Week 3](Week03.html) |
