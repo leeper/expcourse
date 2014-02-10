@@ -9,9 +9,9 @@ ghurl: https://github.com/leeper/expcourse/tree/gh-pages
 Slides will be posted after class, if not before.
 
  - [Week 1](Week01.html) ([PDF](Week01.pdf))
-
-<!--
  - [Week 2](Week02.html) 
+
+<--
  - [Week 3](Week03.html) 
  - [Week 4](Week04.html) 
  - [Week 5](Week05.html) 
