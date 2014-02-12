@@ -56,22 +56,139 @@ template: protocol
 
  - But, there are still lots of decisions to make!
 
+
 ---
-## Experimental designs
-  - SSC Ch.8
-  - Post-test only versus pre-post designs
-    - History, maturation
-    - Precision in standard errors
-  - Control groups and placebo groups
-  - Cross-over designs
-  - More conditions
-    - Single-factor designs
-    - Factorial designs
-      - Full versus partial factorial
-      - Control groups
-      - Advantages
-      - Sample size considerations
-      - Interaction effects
+## Random Assignment
+
+ - Why do we need it?
+ 
+ - Why can't we just compare `\(t_2 - t_1\)` changes?
+ 
+---
+## Random Assignment
+
+ - Breaks the selection process
+
+ - This has benefits:
+ 
+   1. Balances covariates between groups
+   2. Balances potential outcomes between groups
+   3. No confounding
+ 
+---
+# "Perfect Doctor" #
+
+True potential outcomes (unobservable in reality)
+
+| Unit | Y(0) | Y(1) |
+| ---- | ---- | ---- |
+| 1 | 13 | 14 |
+| 2 | 6 | 0 |
+| 3 | 4 | 1 |
+| 4 | 5 | 2 |
+| 5 | 6 | 3 |
+| 6 | 6 | 1 |
+| 7 | 8 | 10 |
+| 8 | 8 | 9 |
+| *Mean* | *7* | *5* |
+
+---
+# "Perfect Doctor" #
+
+Observational data with strong selection bias
+
+| Unit | Y(0) | Y(1) |
+| ---- | ---- | ---- |
+| 1 | ? | 14 |
+| 2 | 6 | ? |
+| 3 | 4 | ? |
+| 4 | 5 | ? |
+| 5 | 6 | ? |
+| 6 | 6 | ? |
+| 7 | ? | 10 |
+| 8 | ? | 9 |
+| *Mean* | *5.4* | *11* |
+ 
+
+---
+## Random assignment
+
+ - We have to do it
+ 
+ - But how do we randomize?
+ 
+???
+
+Does randomization have to be by coin toss?
+
+Do an equal number of units need to be in each treatment group?
+
+ - Statistical efficiency
+ - Ethics
+ - Limited quantity of treatment to distribute
+ 
+
+---
+.left-column[
+## Definition
+]
+.right-column[
+> The observation of units after, and possibly before, a randomly assigned intervention in a controlled setting, which tests one or more precise causal expectations.
+]
+
+---
+.left-column[
+## Definition
+]
+.right-column[
+> The observation of units **after, and possibly before,** a randomly assigned intervention in a controlled setting, which tests one or more precise causal expectations.
+]
+
+???
+
+ - All we have to do is observe outcomes after treatment exposure
+
+ - Why might we want to observe pretest outcomes?
+
+ - What are the consequences of that?
+
+ - Why can't we just look at pretest-posttest differences and skip randomization entirely?
+   - Doesn't break selection bias
+   - Assumes that the counterfactual potential outcome for today is the observed outcome for yesterday
+
+---
+## Design consideration
+  
+ - Single-factor versus crossed designs
+ 
+ - Control groups
+ 
+ - Pretest measurement
+ 
+ - Crossover (within-subjects) designs
+ 
+ - Follow-up outcome measurement
+
+???
+
+ - SSC Ch.8 gives lots of examples
+
+ 1. Factorial designs
+    - Full versus partial factorial
+    - Advantages
+    - Sample size considerations
+    - Interaction effects
+
+ 2. Control groups and placebo groups
+  
+ 3. Post-test only versus pre-post designs
+   - History, maturation
+   - Precision in standard errors
+ 
+ 4. Within-subjects
+   - History, maturation concerns
+   - Order of treatment concerns
+   - e.g., We have to do two things, which is better to do first? Education curricula: is it better to teach research methods or political philosophy in the first semester?
 
 
 ---
@@ -87,19 +204,35 @@ template: protocol
 
 Simply because we have avoided or dealt with known threats, doesn't mean we have a valid inference
 
----
-## Internal validity
-  - Threats to internal validity (SSC Table 2.4, p.55)
-    - Ambiguous temporal precedence
-    - Selection
-    - History
-    - Maturation
-    - Regression
-    - Attrition
-    - Testing (exposure to test affects subsequent scores; measurement has an effect)
-    - Instrumentation (changing measurement over time)
 
---
+---
+## Threats to internal validity
+  
+  1. Ambiguous temporal precedence
+  2. Selection
+  3. History
+  4. Maturation
+  5. Regression
+  6. Attrition
+  7. Testing (exposure to test affects subsequent scores; measurement has an effect)
+  8. Instrumentation
+
+.footnote[SSC Table 2.4 (p.55)]
+
+???
+
+ 1.
+ 2.
+ 3.
+ 4.
+ 5.
+ 6.
+ 7.
+ 8. Changing measurement over time
+   - Ex: policy changes
+   - We decide that speeding is a problem, so we change the punishment for speeding (increasing the fine). We can compare pre-post differences (this called an interrupted time series design). But what if we also lower speed limits? The definition fo speeding has changed, so it becomes hard to compare levels of speeding before and after the policy change.
+
+---
 ## Internal validity in experiments
 
 Which of these threats is solved by randomized experimentation?
@@ -108,12 +241,6 @@ Which of these threats is solved by randomized experimentation?
 
  - Assuming well-designed protocol, then we just have to deal with testing and attrition
 
----
-## Ethics of randomization
-
-  - Equipoise
-  
-  - Treatment preferences
 
 
 ---
@@ -133,13 +260,39 @@ Which of these threats is solved by randomized experimentation?
 
 ---
 ## Measurement and operationalization
-  - Content validity: does it include everything it is supposed to measure
-  - Construct validity: does the instrument actually measure the particular dimension of interest 
-  - Predictive validity: does it predict what it is supposed to
-  - Face validity: does it make sense
+  
+ - Content validity: does it include everything it is supposed to measure
+ - Construct validity: does the instrument actually measure the particular dimension of interest 
+ - Predictive validity: does it predict what it is supposed to
+ - Face validity: does it make sense
 
- - Pretesting of treatments and outcome measures
+---
+## Pretesting
 
+The best way to figure out whether a measure or a treatment serves its intended purpose is to *pretest* it before implementing the full study.
+
+
+---
+## Ethics of randomization
+
+  - Equipoise*
+  
+  - Treatment preferences**
+
+.footnote[
+* Freedman; SSC pp.272-273
+** SSC pp.273-274
+]
+
+???
+
+ - Do you agree with Freedman that researchers need to be in a state of equipoise to conduct an experiment? Why or why not?
+ 
+ - What about subjects' preferences? 
+   - Should randomization only occur when they are indifferent?
+   - How might preferences over treatments impact outcomes?
+  
+  
 ---
 ## Next week
 
