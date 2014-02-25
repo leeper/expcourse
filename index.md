@@ -56,9 +56,7 @@ A [worksheet is available](Worksheet/design-worksheet.pdf) that can be used to g
 
 The exam for the course involves a home assignment (total 8000 words) laying out the design and analysis of a proposed experiment. The syllabus describes the requirements for this assignment in detail.
 
-Students will present a synopsis of their experimental design during the final three weeks of the course in order to receive peer feedback. One third of students will present each of the three weeks. Presentations should be about 2-3 minutes long, allowing about 10 minutes of discussion and feedback per student.
-
-[*Sign-up for presentation dates at this link*](http://doodle.com/8m5tss6hnybq6r66).
+Students will present a synopsis of their experimental design during on April 8th in order to receive peer feedback. 
 
 Student can then, optionally, meet individually with the instructor before the exam is due to receive additional feedback.
 
