@@ -1,0 +1,251 @@
+---
+title: Practical Issues
+layout: remark
+---
+  
+# Practical Issues and Challenges #
+## March 4 ##
+
+
+---
+name: outline
+
+ 1. Analysis-relevant practical considerations
+ 
+ 2. Discussion
+ 
+ 3. Preview of next week
+
+
+---
+## Broken experiments
+
+- Protocol is all about planning and anticipation
+
+- Recall Rubin: "design trumps analysis"
+
+- Elegence: Design so that the mean-difference is all we need
+
+- Unfortunately, all experiments are broken experiments
+
+
+---
+## Broken experiments
+
+ - Attrition
+ 
+ - Noncompliance
+   - One-sided (failure to treat)
+   - One-sided (control group gets treated)
+   - Cross-over
+ 
+ - Missing data
+
+---
+## Analysis of data with attrition
+
+Considerations:
+
+ - Symmetric, possibly random, attrition
+ 
+ - One-sided or systematic attrition
+ 
+ - Pre-treatment/post-treatment
+ 
+ - Pre-measurement/post-measurement
+ 
+???
+
+Statistically, as soon as one unit leaves study, it is no longer an experiment! Yet, we cannot force units to stay in an experiment.
+
+When do we exclude cases? When do we impute missing data?
+
+What can we do practically to prevent or respond to attrition?
+ 
+ - Adaptive design: anticipate spending more resources on those likely to attrit
+ - Pretesting: try to assess who is likely to attrit in a pilot study so you can identify where to expend resources
+
+ - Treatment attrition versus measurement attrition
+  - Measurement attrition is a missing data problem
+  - Treatment attrition means we don't even know if the unit would have taken their assigned treatment
+
+
+---
+## Noncompliance analysis
+
+Choices:
+
+ 1. Intention to treat analysis
+ 
+ 2. As-treated analysis
+ 
+ 3. Exclude noncompliant cases
+ 
+ 4. Estimate a Local Average Treatment Effect (LATE)
+   - aka Compliance Average Treatment Effect (CATE)
+
+???
+
+Example: one-sided noncompliance in voter mobilization
+
+Phone calls do not reach everyone in the treatment group
+
+**How to prevent attrition?**
+  - Discuss in groups
+  - 1: Pretest for differential attrition rates between groups
+
+**Example: two-sided noncompliance**
+
+Encouragement designs: there is an existing resource that we want to encourage people to use (e.g., going to the library)
+We want to know what effect library use has on childrens' educational outcomes.
+We randomly send letters to some people encouraging them to go to the library
+Not all of them do, so we have noncompliance
+And some of those who do not receive letters go to the library, so we have noncompliance on both sides
+
+---
+## One-sided noncompliance
+
+`\( ITT = \overline{Y}_1 - \overline{Y}_0 \)`
+
+`\( LATE = \frac{ITT}{Pct. Compliant} \)`
+
+We need to observe compliance to estimate the *LATE*
+
+???
+
+If we expect noncompliance, we need to measure it
+
+Otherwise all we can estimate is the ITT
+
+This is easy if the treatment is a phone call, we can record compliance easily
+
+This is harder if the treatment is something that we don't actually administer (e.g., drugs taken at home)
+
+
+---
+## Two-sided noncompliance
+
+ 1. This is more complex analytically
+ 
+ 2. Stronger assumptions are required to analyze it
+   - Especially *monotonicity*
+   - e.g., no one who who go to the library if not encouraged but who won't go to the library if encouraged
+ 
+ 3. This is a classic design trumps analysis problem
+
+
+---
+## Missing Data
+
+Problems:
+
+ - Missing data is a threat to representativeness
+ 
+ - Missing data increases our uncertainty
+ 
+Solutions:
+
+ - Case deletion
+ 
+ - Imputation
+ 
+???
+
+Case deletion: per analysis or entirely
+
+Imputation: single or multiple
+
+Sensitivity analysis
+
+
+---
+## Cluster random assignment
+
+ - Cluster randomization is fine if cluster means are similar
+ 
+ - Otherwise, clustering introduces inefficiencies
+ 
+ - Or we can change our unit of analysis
+   - Contrast people as units versus clusters as units
+ 
+???
+
+Greater variance across clusters makes the design less efficient
+
+Solutions:
+ 
+ 1. Add more clusters
+ 2. Make clusters as homogeneous as possible
+ 
+Increasing cluster size has a negligible effect on inference
+
+
+
+---
+## Pretreatment
+
+ - An experiment involves:
+ 
+   1. Units
+   2. Treatment(s)
+   3. Outcome(s)
+   4. Context(s)
+ 
+ - Does our experiment work in this context on these subjects?
+
+???
+
+Do unit history or broader context influence our results?
+
+We can measure to see if people have been pretreated, but sometimes we can't do that or can't know in advance
+
+---
+template: outline
+
+---
+## Scenarios
+
+ - Discuss scenarios that deal with:
+   1. Ethics
+   2. Practical issues
+   
+ - Think about:
+   - What should we do in each situation?
+   - Are ethical principles violated?
+   - How does the situation affect our analysis?
+
+ - Not necessarily a "right" answer
+ 
+???
+
+- Benefit/harm trade-offs
+- Ethics of randomization
+- Failed randomization
+  - Protocol failure
+  - People responding to random assignment by seeking outside interventions
+- Deception
+  - Omission
+  - Commission
+- Attrition
+- Cross-over
+- Informed consent
+- Children
+- Prisoners
+- Cancer patients
+- Discontinuing a study early
+  - Effective versus ineffective treatment
+- Pretreatment
+- Preferences over treatments
+- Subject pool contamination
+- Interference/SUTVA violations
+
+  
+---
+## Next week
+
+ - Four examples of lab experiments
+ 
+ - Each of you should present one article:
+   - 10 minute overview of design
+   - Come up with 2-3 discussion questions
+ 
