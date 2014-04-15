@@ -17,7 +17,4 @@ Slides will be posted after class, if not before.
  - Week 7 (no slides)
  - [Week 8](Week08.html) (as [PDF](Week08.pdf))
  - [Week 9](Week09.html) (as [PDF](Week09.pdf))
- 
-<!--
  - [Week 10](Week10.html) (as [PDF](Week10.pdf))
--->
