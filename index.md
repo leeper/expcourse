@@ -8,14 +8,12 @@ ghurl: https://github.com/leeper/expcourse/tree/gh-pages
 
 This course addresses experimentation as a research method in political science. It is being taught as a master seminar at Aarhus University during Spring term 2014. The Spring 2014 version of the class focuses on experimental design.
 
----
 ## Syllabus ##
 
 You can find an outline of the course objectives, schedule for the course, exam structure, and assigned readings in the [Syllabus](Syllabus.pdf).
 
 <!-- Those who are interested can also glance at the [Analysis Syllabus](Syllabus-Analysis.pdf), which is still in draft form, but lays out more technical and statistical aspects of experimental research. Though the Spring 2014 course will use the design syllabus, those interested in more advanced issues in experimental data analysis might find this syllabus helpful.-->
 
----
 ## Readings ##
 
 In addition to journal articles on the syllabus, the course will use the following textbook:
@@ -28,13 +26,11 @@ Alan S. Gerber and Donald P. Green. *Field Experiments: Design, Analysis, and In
 
 Shadish et al. provide a useful conceptual background for the practice of causally oriented social research. Gerber and Green supplement this text with an explicit focus on experimental design and analysis in the modern language of the Neyman-Rubin potential outcomes framework.
 
----
 ## Slides ##
 
 Course slides are available in the [/Slides](Slides) directory.
 
 
----
 ## Assignments and Exam ##
 
 ### Weekly Assignments ###
@@ -60,7 +56,6 @@ Students will present a synopsis of their experimental design during on April 8t
 
 Student can then, optionally, meet individually with the instructor before the exam is due to receive additional feedback.
 
----
 ## Why GitHub? ##
 
 Read more about why this course is on GitHub [here](fork.html).
